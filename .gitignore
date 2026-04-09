@@ -58,3 +58,7 @@ typings/
 .env
 
 .idea
+
+# Build output
+dist/
+example/dist/

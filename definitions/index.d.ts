@@ -18,8 +18,8 @@ export declare class FallbackDirectoryResolverPlugin {
     constructor(options?: IFallbackDirectoryResolverPluginOptions);
     pathMatchesPrefix(request: string): boolean;
     apply(resolver: any): void;
-    private applyWebpackV4(resolver);
-    private applyWebpackV3(resolver);
+    private applyWebpackV4;
+    private applyWebpackV3;
     pathsCombinations(reqPath: string, directories: string[], extensions?: string[]): string[];
     resolveComponentPath(path: string): string | null;
 }
