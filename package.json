@@ -1,6 +1,6 @@
 {
   "name": "@sector-labs/webpack-fallback-directory-resolver-plugin",
-  "version": "2.0.0-rc.1",
+  "version": "2.0.0",
   "description": "Webpack Resolver plugin to resolve modules and files through a fallback chain at compile time.",
   "main": "dist/index.js",
   "repository": {
